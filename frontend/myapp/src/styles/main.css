@@ -1,0 +1,274 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-image: url("https://i.pinimg.com/1200x/a5/7f/c3/a57fc3a942bf0f22b4050c369d3a8ced.jpg");
+    background-image: url("https://i.pinimg.com/1200x/f4/b4/68/f4b468c720a97521602be6095de1abec.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+} */
+/* body{
+     background-image: url("https://i.pinimg.com/1200x/5f/fc/0c/5ffc0c75ef4b3c75006bd67241f5bfe0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ } */
+
+/* Dont add img here...add it in home-pg section-->enables scroll*/
+header {
+    position: fixed;
+    z-index:50;
+    top: 0;
+    background-color: rgb(217, 184, 166);
+    ;
+    /* background-color: transparent; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: rgb(66, 41, 41);
+
+    /* color:rgb(226, 169, 126); */
+    margin-left: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nav-bar a {
+    margin-left: 40px;
+    margin-right: 30px;
+    color: rgb(66, 41, 41);
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.logo img{
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.nav-bar a:hover,
+.nav-bar a.home {
+    text-decoration: underline;
+}
+
+.home-pg {
+    height: 100vh;
+    /* full viewport height */
+    /* background-image: url("https://i.pinimg.com/1200x/5f/fc/0c/5ffc0c75ef4b3c75006bd67241f5bfe0.jpg"); */
+    background-image: url("https://i.pinimg.com/736x/4d/af/8f/4daf8f98bfa22fc8aa6f7a671a4ca0e4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.home-text {
+    width: 500px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left:30px;
+    /* border: 2px solid white; */
+    position: relative;
+    top: 0px;
+    left: 70px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.home-text h2 {
+    font-size: 70px;
+    color: rgb(247, 244, 243);
+    font-family:"Dancing Script",cursive;
+}
+
+.home-text p {
+    color: rgb(241, 203, 182);
+    margin-bottom: 40px;
+}
+
+.home-text a {
+    /* background-color: rgb(182, 135, 118); */
+    /* background-color: rgba(165, 42, 42, 0.72); */
+    background-color: rgba(67, 22, 22, 0.829);
+    text-decoration: none;
+    margin-top: 20px;;
+    font-size: 20p;
+    padding: 20px;
+    border-radius: 40px;
+    color: white;
+}
+.home-text a:hover{
+    background-color: rgba(167, 101, 101, 0.829);
+}
+
+.pg2 {
+    /* background-color: rgb(209, 161, 122); */
+    /* background-image: url("https://i.pinimg.com/736x/78/c3/49/78c349bc6ef7afbcb8d99de89b01d074.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: linear-gradient(rgb(202, 179, 179)); */
+    /* background: linear-gradient(rgba(165, 138, 81, 0.6)), url("https://i.pinimg.com/736x/78/c3/49/78c349bc6ef7afbcb8d99de89b01d074.jpg"); */
+    /* background-color: #EDBF85;   #F1BB87, */
+    background-color: #C59B76;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.pg2-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.pg2-content .pg2-img {
+    max-width: 600px;
+    width:100%;
+    height: 600px;
+    margin-right: 100px;
+    /* border-top-right-radius: 50%;
+  border-top-left-radius: 50%; */
+}
+
+.pg2-content .pg2-text {
+    max-width: 800px;
+    width:100%;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left:100px;
+    /* border: 2px solid black; */
+    margin-top: 5%;
+    align-content: center;
+}
+
+.pg2-text h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.pg2-text p {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom:20px;
+}
+.pg2-text a{
+    background-color: rgba(67, 22, 22, 0.829);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 40px;
+    color:rgb(219, 171, 123);
+    padding:20px;
+}
+.pg2-text a:hover{
+    background-color:rgba(167, 101, 101, 0.829);
+    color:black;
+}
+.bar{
+    /* background-image: url("https://i.pinimg.com/736x/46/6e/61/466e61cc21136e327276237c20cb2d0b.jpg");
+    background-color: linear-gradient(rgb(190, 136, 136)); */
+    background:linear-gradient(rgb(89, 58, 58,0.5)),url("https://i.pinimg.com/736x/46/6e/61/466e61cc21136e327276237c20cb2d0b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:500px;
+    width:100%;
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.bar .extras .content{
+    /* border:2px solid black; */
+    text-align:center;
+    top:20px;
+    width:900px;
+}
+.content{
+    color:white;
+}
+.content h2{
+    font-family: "Dancing Script",cursive;
+    font-size: 40px;
+    font-weight: 700;
+}
+.content p{
+    font-size: 20px;
+    margin-bottom:40px;
+}
+.content a{
+    background-color: rgb(60, 32, 32);
+    color:white;
+    padding:20px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(219, 171, 123);
+    z-index: 1;
+}
+.content a:hover{
+    background-color: rgba(133, 78, 78, 0.829);
+}
+.pg3{
+    background-image: url("https://i.pinimg.com/1200x/bc/bb/a6/bcbba67fd190eb2a6d0356a347f0eace.jpg");
+     height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px
+}
+.bestsellers{
+    border:2px solid black;
+    max-width: 95vw;
+    width:100%;
+    max-height: 90vh;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bestsellers div{
+    border:3px solid black;
+    max-width: 300px;
+    width:100%;
+    max-height:300px;
+    height:100%;
+    margin:0px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.bs1{
+    max-height:200px;
+    height:100%;
+    max-width:300px;
+    width:100%;
+}
+.bs1 img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}

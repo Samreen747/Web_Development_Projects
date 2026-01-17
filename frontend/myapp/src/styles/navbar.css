@@ -1,0 +1,41 @@
+.main-header {
+  background-color: #d7b4a3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 60px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.main-header .logo h2 {
+  font-family: "Georgia", serif;
+  font-weight: bold;
+  color: #3b1d0b;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #3b1d0b;
+  margin: 0 15px;
+  font-size: 18px;
+  font-family: "Times New Roman", serif;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #fff;
+  background-color: #3b1d0b;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.nav-btn {
+  background-color: #3b1d0b;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
